@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <title>Professor Fulano de Tal</title>
+    <link href="https://caiogc.github.io/tutorial-professor-publii/feed.xml" rel="self" />
+    <link href="https://caiogc.github.io/tutorial-professor-publii" />
+    <updated>2024-11-02T12:48:27-03:00</updated>
+    <author>
+        <name>Fulano de Tal</name>
+    </author>
+    <id>https://caiogc.github.io/tutorial-professor-publii</id>
+
+    <entry>
+        <title>Título do Post</title>
+        <author>
+            <name>Fulano de Tal</name>
+        </author>
+        <link href="https://caiogc.github.io/tutorial-professor-publii/titulo-do-post/"/>
+        <id>https://caiogc.github.io/tutorial-professor-publii/titulo-do-post/</id>
+        <media:content url="https://caiogc.github.io/tutorial-professor-publii/media/posts/4/ufop.webp" medium="image" />
+
+        <updated>2024-09-02T13:27:09-03:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://caiogc.github.io/tutorial-professor-publii/media/posts/4/ufop.webp" alt="" />
+                    Para a criar um post, vá no menu Tutorial à esquerda, abra a lista POSTAGENS e escolha uma das opções&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://caiogc.github.io/tutorial-professor-publii/media/posts/4/ufop.webp" class="type:primaryImage" alt="" /></p>
+                <p>Para a criar um <a href="https://caiogc.github.io/tutorial-professor-publii/postagens-2/">post</a>, vá no menu <strong>Tutorial</strong> à esquerda, abra a lista <strong>POSTAGENS</strong> e escolha uma das opções de editor para aprender a publicar um <strong>Post.</strong></p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Título do Post</title>
+        <author>
+            <name>Fulano de Tal</name>
+        </author>
+        <link href="https://caiogc.github.io/tutorial-professor-publii/titulo-do-post-2/"/>
+        <id>https://caiogc.github.io/tutorial-professor-publii/titulo-do-post-2/</id>
+        <media:content url="https://caiogc.github.io/tutorial-professor-publii/media/posts/3/ufop.webp" medium="image" />
+
+        <updated>2024-09-02T13:24:38-03:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://caiogc.github.io/tutorial-professor-publii/media/posts/3/ufop.webp" alt="" />
+                    Para a criar um post, vá no menu Tutorial à esquerda, abra a lista POSTAGENS e escolha uma das opções&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://caiogc.github.io/tutorial-professor-publii/media/posts/3/ufop.webp" class="type:primaryImage" alt="" /></p>
+                <p>Para a criar um <a href="https://caiogc.github.io/tutorial-professor-publii/postagens-2/">post</a>, vá no menu <strong>Tutorial</strong> à esquerda, abra a lista <strong>POSTAGENS</strong> e escolha uma das opções de editor para aprender a publicar um <strong>Post.</strong></p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Título do Post</title>
+        <author>
+            <name>Fulano de Tal</name>
+        </author>
+        <link href="https://caiogc.github.io/tutorial-professor-publii/titulo-do-post-3/"/>
+        <id>https://caiogc.github.io/tutorial-professor-publii/titulo-do-post-3/</id>
+        <media:content url="https://caiogc.github.io/tutorial-professor-publii/media/posts/2/ufop.webp" medium="image" />
+
+        <updated>2024-09-02T13:19:24-03:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://caiogc.github.io/tutorial-professor-publii/media/posts/2/ufop.webp" alt="" />
+                    Para a criar um post, vá no menu Tutorial à esquerda, abra a lista POSTAGENS e escolha uma das opções&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://caiogc.github.io/tutorial-professor-publii/media/posts/2/ufop.webp" class="type:primaryImage" alt="" /></p>
+                <p>Para a criar um <a href="https://caiogc.github.io/tutorial-professor-publii/postagens-2/">post</a>, vá no menu <strong>Tutorial</strong> à esquerda, abra a lista <strong>POSTAGENS</strong> e escolha uma das opções de editor para aprender a publicar um <strong>Post.</strong></p>
+            ]]>
+        </content>
+    </entry>
+</feed>

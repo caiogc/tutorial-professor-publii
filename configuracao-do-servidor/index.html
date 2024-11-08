@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+            <title>Configuração do Servidor - Professor Fulano de Tal </title>
+        <meta name="description" content="Como o Publii é um aplicativo de desktop, ele não precisa estar conectado ao servidor do seu site quando você&hellip;" />
+         
+        <meta name="generator" content="Publii Open-Source CMS for Static Site" />
+
+        <link rel="canonical" href="https://caiogc.github.io/tutorial-professor-publii/configuracao-do-servidor/">
+        <link rel="alternate" type="application/atom+xml" href="https://caiogc.github.io/tutorial-professor-publii/feed.xml" />
+<link rel="alternate" type="application/json" href="https://caiogc.github.io/tutorial-professor-publii/feed.json" />
+
+        <meta property="og:title" content="Configuração do Servidor" /><meta property="og:image" content="https://caiogc.github.io/tutorial-professor-publii/media/website/default-profile-icon-16.jpg"/><meta property="og:image:width" content="1890" /><meta property="og:image:height" content="1890" /><meta property="og:site_name" content="Professor Fulano de Tal" /><meta property="og:description" content="Como o Publii é um aplicativo de desktop, ele não precisa estar conectado ao servidor do seu site quando você&hellip;" /><meta property="og:url" content="https://caiogc.github.io/tutorial-professor-publii/configuracao-do-servidor/" /><meta property="og:type" content="article" />
+	        <link rel="shortcut icon" href="https://caiogc.github.io/tutorial-professor-publii/media/website/favi.png" type="image/png" />
+          <link rel="preload" href="https://caiogc.github.io/tutorial-professor-publii/assets/dynamic/fonts/robotoflex/robotoflex.woff2" as="font" type="font/woff2" crossorigin>
+        
+            <link rel="preload" href="https://caiogc.github.io/tutorial-professor-publii/assets/dynamic/fonts/robotoslab/robotoslab.woff2" as="font" type="font/woff2" crossorigin>
+        <link rel="stylesheet" href="https://caiogc.github.io/tutorial-professor-publii/assets/css/fontawesome-all.min.css?v=85514f933f9e0b82460af63f1a403fa5">
+        <link rel="stylesheet" href="https://caiogc.github.io/tutorial-professor-publii/assets/css/style.css?v=5d80505c85108c166449f368aa8e4bb7">
+        <script type="application/ld+json">{"@context":"http://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://caiogc.github.io/tutorial-professor-publii/configuracao-do-servidor/"},"headline":"Configuração do Servidor","datePublished":"2024-11-05T22:33-03:00","dateModified":"2024-11-05T23:06-03:00","image":{"@type":"ImageObject","url":"https://caiogc.github.io/tutorial-professor-publii/media/website/default-profile-icon-16.jpg","height":1890,"width":1890},"description":"Como o Publii é um aplicativo de desktop, ele não precisa estar conectado ao servidor do seu site quando você&hellip;","author":{"@type":"Person","name":"Fulano de Tal","url":"https://caiogc.github.io/tutorial-professor-publii/authors/dr-henry-walton-jones-jr/"},"publisher":{"@type":"Organization","name":"Fulano de Tal","logo":{"@type":"ImageObject","url":"https://caiogc.github.io/tutorial-professor-publii/media/website/default-profile-icon-16.jpg","height":1890,"width":1890}}}</script>
+        <noscript>
+            <style>
+                img[loading] {
+                    opacity: 1;
+                }
+            </style>
+        </noscript>
+        
+    </head>
+    <body class="is-preload page-template">
+        
+<!-- Barra superior com link para o site da UFOP -->
+<div class="ufop-header">
+    <img src="assets/images/logoufopq.png" alt="Logo UFOP" class="ufop-logo">
+    <a href="https://www.ufop.br">
+        <strong>UNIVERSIDADE FEDERAL DE OURO PRETO</strong>
+    </a>
+</div>
+
+<div id="wrapper">
+   <div id="main">
+      <div class="inner">
+
+         <header id="header">
+            <h2><a class="logo logo-image" href="https://caiogc.github.io/tutorial-professor-publii/">
+          
+                  <strong>Professor Fulano de Tal</strong></h2>
+              
+            </a>
+         </header>
+
+      <article class="post">
+         <header class="main post__header">              
+
+            <h1>
+               Configuração do Servidor
+            </h1>             
+         </header>
+
+
+         <div class="post__inner post__entry">           
+            <p>Como o Publii é um aplicativo de desktop, ele não precisa estar conectado ao servidor do seu site quando você estiver fazendo modificações ou adicionando conteúdo; em vez disso, sempre que suas alterações estiverem prontas para serem publicadas, você só precisará clicar no botão <strong>Sync Your Website</strong> no canto inferior esquerdo do aplicativo Publii:</p>
+<figure class="post__image">
+<figure class="post__image"><figure class="is-loaded"><img  src="https://getpublii.com/docs/media/posts/10/sync-website-2.png" alt="Sincronização do site Publii" width="1456" height="816" loading="lazy" data-is-external-image="true"></figure></figure>
+<figcaption>Botão Sincronizar seu site</figcaption>
+</figure>
+<p>Você pode sincronizar seu site com a frequência que desejar; cada vez que você sincronizar, o Publii comparará seus arquivos locais com os do servidor e carregará apenas as alterações, então, após a primeira sincronização, tudo será mais rápido. Antes de poder sincronizar seu site, você precisará inserir os detalhes do seu servidor no aplicativo. Não se preocupe se você ainda não tiver um servidor; você ainda pode usar o Publii para criar seu site e adicionar as informações do seu servidor mais tarde.</p>
+<h2 id="firststeps">Primeiros Passos</h2>
+<p>Se você estiver configurando um servidor no Publii pela primeira vez, notará que o botão <strong>Sync Your Website</strong> não está disponível; em vez disso, você verá um botão marcado <strong>Configure Server</strong>. Clicar nele o levará para a tela <strong>Configuração do Servidor</strong>. Como alternativa, você pode clicar na opção <strong>Server</strong> na barra lateral esquerda para abrir esta tela também.</p>
+<p class="msg msg--info">Se você ainda não tem um servidor, não se preocupe. Você pode continuar a criar conteúdo e personalizar seu site localmente no Publii e sincronizá-lo mais tarde, quando seu servidor estiver pronto.</p>
+<p>Para configurar o Publii para sincronizar com o seu servidor, é essencial saber o tipo de servidor que será usado e ter as informações de acesso. Neste guia, vamos focar na configuração com <strong>FTP</strong> (File Transfer Protocol), uma opção padrão para muitos provedores de hospedagem.</p>
+<p>Depois que seu servidor estiver configurado, você pode começar a criar o conteúdo do seu site; navegue pelo menu à esquerda para obter informações sobre como criar postagens, tags e autores, inserir imagens e vídeos e muito mais.</p>
+<h2 id="choosingaservertype">Escolhendo um tipo de servidor</h2>
+<p>Ao clicar no botão <strong>Configure Server</strong>, a primeira coisa que você verá é uma seleção de  <strong>Tipos de Servidor</strong> para você escolher; Selecione  <strong><a href="#ftps">FTP</a></strong> como o tipo de servidor. O Publii também oferece suporte a outros tipos de servidor, mas este guia abordará a configuração com <strong>FTP</strong>, por ser a opção mais prática. Há também uma opção para  <strong><a href="#manual">Implantação Manual</a></strong>, que exporta os arquivos do site para sua máquina local.</p>
+<figure class="post__image"><figure class="is-loaded"><img  src="https://getpublii.com/docs/media/posts/10/server-type-2.png" alt="Selecione a página do tipo de servidor" width="1456" height="951" loading="lazy" data-is-external-image="true"></figure>
+<figcaption>Selecione a página do tipo de servidor</figcaption>
+</figure>
+<p>Após escolher o <strong>FTP</strong> como tipo de servidor, você será levado para a tela de <strong>Server Configuration</strong>, onde poderá inserir as informações de conexão do seu servidor e prosseguir com a configuração.</p>
+<h2 id="serverconfigurationoptions">Opções de configuração do servidor</h2>
+<p>Cada tipo de servidor que você escolher incluirá duas opções básicas e universais:</p>
+<ul>
+<li><strong>URL do site</strong> - Normalmente, será a URL inicial do seu site se você estiver executando seu próprio servidor, por exemplo, <strong>www.mysite.com</strong> ; você também pode escolher qual protocolo usar, incluindo <strong>http://</strong> ,  <strong>https://</strong> , <strong>file:///</strong> , <strong>dat://</strong> , <strong>ipfs://</strong> , <strong>dweb://</strong> ou nenhum protocolo se estiver buscando uma implantação manual em um site de intranet. As soluções de armazenamento em nuvem geralmente usarão seu próprio domínio gerado; nossos guias detalhados para cada tipo de servidor cobrirão onde encontrá-lo.</li>
+<li><strong>Use Relative URLs</strong> - Esta opção converte caminhos de URL completos em caminhos relativos, por exemplo, <code>https://www.mysite.com/path/</code>para<code>/path/</code></li>
+</ul>
+<p>Além dessas opções básicas, cada protocolo também tem seus próprios requisitos específicos de segurança, configuração e sincronização. Dependendo do protocolo escolhido, você pode ter muito mais opções disponíveis. Você precisará inserir as opções de configuração do protocolo selecionado e clicar no botão <strong>Save</strong> para armazenar os detalhes; se necessário, você também pode clicar no botão <strong>Test Connection</strong> para garantir que o Publii consiga se conectar e sincronizar com seu servidor. Agora, vamos dar uma olhada em cada um dos protocolos disponíveis e suas respectivas configurações separadamente:</p>
+<h3 id="ftps">FTPs</h3>
+<p>FTP (File Transfer Protocol) é usado ao usar um servidor fornecido por um host; se você comprou um plano de hospedagem de um host como GoDaddy ou Bluehost, então o Publii usará FTP para mover e gerenciar todos os arquivos do seu site para o seu servidor. Existem três tipos de FTP suportados pelo Publii; FTP padrão ou os mais seguros SFTP e FTPS. A maioria dos hosts suportará uma das opções mais seguras, mas em caso de dúvida, é melhor verificar com a equipe de atendimento ao cliente do seu host para garantir que você tenha a conexão mais segura possível.</p>
+<p class="msg msg--info">O protocolo FTP usa uma transmissão não criptografada, o que significa que quaisquer dados enviados por ele, incluindo seu nome de usuário e senha, podem ser lidos por qualquer um que possa interceptar sua transmissão. Recomendamos fortemente usar os protocolos FTPS ou SFTP, se possível.</p>
+<figure class="post__image"><figure class="is-loaded"><img  src="https://getpublii.com/docs/media/posts/10/destination-server-settings.svg" alt="Configuração do servidor Publii SFTP" width="748" height="705" loading="lazy" data-is-external-image="true"></figure></figure>
+<p>As opções disponíveis ao selecionar FTP como seu protocolo são:</p>
+<ul>
+<li><strong>Port</strong> - Define a porta pela qual o Publii deve se conectar; geralmente, ela é definida como o padrão '21' (para FTP) ou '22' (para SFTP), mas seu provedor de hospedagem pode informá-lo sobre as configurações necessárias.</li>
+<li><strong>Server</strong> - Coloque aqui a URL para acesso ao seu servidor FTP; este será um endereço web que começa com o prefixo <strong>ftp://</strong> em vez de <strong>http://</strong> .</li>
+<li><strong>Username</strong> - O nome de usuário para seu acesso FTP.</li>
+<li><strong>Password</strong> - A senha para seu acesso FTP. Ambas são necessárias para que Publii possa acessar o servidor. O texto inserido aqui será ocultado por motivos de segurança; para exibir o texto digitado, clique no texto "Mostrar senha" neste campo.</li>
+<li><strong>Your Key (SFTP somente com chave)</strong> - Defina o caminho para sua chave SFTP aqui; clicar no campo abrirá o explorador de arquivos; basta navegar e selecionar sua chave para continuar.</li>
+<li><strong>Key Passphrase (SFTP somente com chave)</strong> - Digite a frase-senha da sua chave SFTP aqui, se você tiver uma.</li>
+<li><strong>Always Ask For Password</strong> - Quando esta opção estiver ativada, você será solicitado a digitar a senha do FTP toda vez que sincronizar seu site, para maior segurança.</li>
+<li><strong>Remote Path</strong> - O caminho remoto é a pasta que seu FTP abre quando se conecta pela primeira vez; normalmente seria a pasta principal <strong>/public_html/</strong> , mas pode ser que você tenha acesso limitado a uma subpasta específica, como <strong>public_html/mySite/</strong> .</li>
+</ul>
+<h3 id="manual">Manual Upload</h3>
+<p>Embora o Publii seja projetado para gerenciar atualizações e sincronizações de sites automaticamente, pode haver alguns usuários que não têm acesso direto ao seu servidor, preferem carregar seus sites manualmente ou apenas desejam gerar seus sites em um arquivo zip para implantação posterior. Nesses casos, os usuários podem aproveitar a opção de upload manual, que gera o site em um formato de sua escolha.</p>
+<figure class="post__image"><figure class="is-loaded"><img  src="https://getpublii.com/docs/media/posts/10/manual-upload.svg" alt="Upload do Manual Público" width="748" height="451" loading="lazy" data-is-external-image="true"></figure></figure>
+<p>As seguintes opções estarão disponíveis se o Upload Manual estiver definido como seu protocolo:</p>
+<ul>
+<li><strong>Output Type</strong> - Define o formato de arquivo que o Publii deve exibir em seu site quando uma operação de sincronização for executada. Escolha entre um arquivo ZIP ou TAR compactado ou a pasta do site descompactada. Os arquivos de saída são armazenados no mesmo local que o local dos arquivos do seu site Publii; assim que a sincronização for concluída, você terá a opção de abrir esse local automaticamente.</li>
+<li><strong>Output Directory</strong> - Define onde o arquivo de saída deve ser colocado quando gerado. Clicar no campo vazio abrirá o explorador de arquivos para você escolher um local.</li>
+</ul>            
+         </div>
+
+      </article>
+
+
+
+
+
+  </div>
+</div>
+    <div id="sidebar">
+       <div class="inner">
+    
+    
+    
+    <div class="logo-wrapper"><figure class="logo-figure">
+    
+    <img src="https://caiogc.github.io/tutorial-professor-publii/media/website/default-profile-icon-16.jpg" alt="Professor Fulano de Tal" width="1890" height="1890">           
+      
+    
+    </figure></div>
+    
+          <nav id="menu">
+             <header class="major">
+                <h2>Tutorial</h2>
+             </header>
+                <ul>
+                         <li class="active-parent has-submenu">
+                         <a
+                            href="https://caiogc.github.io/tutorial-professor-publii/"
+                               target="_self"
+                               aria-haspopup="true" 
+                               class="opener"
+                            >
+                            Configuração Inicial
+                         </a>
+                
+                         <ul class="submenu level-2" aria-hidden="true">
+                                  <li>
+                                  <a
+                                     href="https://caiogc.github.io/tutorial-professor-publii/comecando/instalacao/"
+                                        target="_self"
+                         >
+                                     Download e Instalação
+                                  </a>
+                         
+                            </li>
+                                  <li>
+                                  <a
+                                     href="https://caiogc.github.io/tutorial-professor-publii/comecando/criando-um-site-a-partir-de-um-backup/"
+                                        target="_self"
+                         >
+                                     Criando o site
+                                  </a>
+                         
+                            </li>
+                                  <li>
+                                  <a
+                                     href="https://caiogc.github.io/tutorial-professor-publii/comecando/informacoes-basicas/"
+                                        target="_self"
+                         >
+                                     Informações básicas
+                                  </a>
+                         
+                            </li>
+                                  <li class="active">
+                                  <a
+                                     href="https://caiogc.github.io/tutorial-professor-publii/configuracao-do-servidor/"
+                                        target="_self"
+                         >
+                                     Configuração do servidor
+                                  </a>
+                         
+                            </li>
+                         </ul>
+                               </li>
+                         <li>
+                         <a
+                            href="https://caiogc.github.io/tutorial-professor-publii/pagina-inicial/"
+                               target="_self"
+                >
+                            Página Inicial
+                         </a>
+                
+                   </li>
+                         <li class="has-submenu">
+                         <a
+                            href="https://caiogc.github.io/tutorial-professor-publii/postagens-2/"
+                               target="_self"
+                               aria-haspopup="true" 
+                               class="opener"
+                            >
+                            Postagens
+                         </a>
+                
+                         <ul class="submenu level-2" aria-hidden="true">
+                                  <li>
+                                  <a
+                                     href="https://caiogc.github.io/tutorial-professor-publii/postagens-2/block-editor/"
+                                        target="_self"
+                         >
+                                     Block editor
+                                  </a>
+                         
+                            </li>
+                                  <li>
+                                  <a
+                                     href="https://caiogc.github.io/tutorial-professor-publii/postagens-2/block-editor-2/"
+                                        target="_self"
+                         >
+                                     Markdown editor
+                                  </a>
+                         
+                            </li>
+                                  <li>
+                                  <a
+                                     href="https://caiogc.github.io/tutorial-professor-publii/postagens-2/w-editor/"
+                                        target="_self"
+                         >
+                                     WYSIWYG Editor
+                                  </a>
+                         
+                            </li>
+                         </ul>
+                               </li>
+                         <li>
+                         <a
+                            href="https://caiogc.github.io/tutorial-professor-publii/paginas/"
+                               target="_self"
+                >
+                            Páginas
+                         </a>
+                
+                   </li>
+                         <li>
+                         <a
+                            href="https://caiogc.github.io/tutorial-professor-publii/tags-2/"
+                               target="_self"
+                >
+                            Tags
+                         </a>
+                
+                   </li>
+                         <li>
+                         <a
+                            href="https://caiogc.github.io/tutorial-professor-publii/menus/"
+                               target="_self"
+                >
+                            Menus
+                         </a>
+                
+                   </li>
+                         <li>
+                         <a
+                            href="https://caiogc.github.io/tutorial-professor-publii/autores/"
+                               target="_self"
+                >
+                            Autores
+                         </a>
+                
+                   </li>
+                         <li>
+                         <a
+                            href="https://caiogc.github.io/tutorial-professor-publii/sincronizando-servidor/"
+                               target="_self"
+                >
+                            Sincronizando Servidor
+                         </a>
+                
+                   </li>
+                </ul>
+                         </nav>
+          
+    
+    
+    <section>
+        <header class="major">
+            <h2>Entre em Contato</h2>
+        </header>
+    
+            <p><p>Atendimento de segunda a sexta, das 13h às 17h.</p></p>
+    
+        <ul class="contact">
+                <li class="icon solid fa-envelope">
+                    <a href="mailto:seuemail@ufop.edu.br">seuemail@ufop.edu.br</a>
+                </li>
+    
+                <li class="icon solid fa-phone">(31) 3559-1456</li>
+    
+                <li class="icon solid fa-external-link-alt">
+                    <a href="http://lattes.cnpq.br/xxxxxxxx" target="_blank">Curriculum Lattes</a>
+                </li>
+        </ul>
+    </section>
+    
+          <footer id="footer">
+             <p class="copyright">© Universidade Federal de Ouro Preto</p> 
+          </footer>
+    
+          </div>
+       </div>
+</div>
+
+
+<script  src="https://caiogc.github.io/tutorial-professor-publii/assets/js/jquery.min.js?v=7c14a783dfeb3d238ccd3edd840d82ee"></script>
+<script  src="https://caiogc.github.io/tutorial-professor-publii/assets/js/browser.min.js?v=c07298dd19048a8a69ad97e754dfe8d0"></script>
+<script  src="https://caiogc.github.io/tutorial-professor-publii/assets/js/breakpoints.min.js?v=81a479eb099e3b187613943b085923b8"></script>
+<script  src="https://caiogc.github.io/tutorial-professor-publii/assets/js/util.min.js?v=cbdaf7c20ac2883c77ae23acfbabd47e"></script>
+<script  src="https://caiogc.github.io/tutorial-professor-publii/assets/js/main.min.js?v=08add7f6d435054ad38ec38d7cf8be40"></script>
+
+   <script>var images=document.querySelectorAll("img[loading]");for(var i=0;i<images.length;i++){if(images[i].complete){images[i].classList.add("is-loaded")}else{images[i].addEventListener("load",function(){this.classList.add("is-loaded")},false)}};</script>
+
+
+
+
+
+
+</body>
+</html>
