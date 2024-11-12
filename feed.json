@@ -14,8 +14,8 @@
             "id": "https://caiogc.github.io/tutorial-professor-publii/titulo-do-post/",
             "url": "https://caiogc.github.io/tutorial-professor-publii/titulo-do-post/",
             "title": "Título do Post",
-            "summary": "Para a criar um post, vá no menu Tutorial à esquerda, abra a lista POSTAGENS e escolha uma das opções&hellip;",
-            "content_html": "<p>Para a criar um <a href=\"https://caiogc.github.io/tutorial-professor-publii/postagens-2/\">post</a>, vá no menu <strong>Tutorial</strong> à esquerda, abra a lista <strong>POSTAGENS</strong> e escolha uma das opções de editor para aprender a publicar um <strong>Post.</strong></p>",
+            "summary": "Para a criar um post, vá no menu Tutorial à esquerda, acesse Postagens para aprender a publicar um Post. Para&hellip;",
+            "content_html": "<p>Para a criar um post, vá no menu <strong>Tutorial</strong> à esquerda, acesse <strong><a href=\"https://caiogc.github.io/tutorial-professor-publii/postagens-2/\">Postagens</a></strong> para aprender a publicar um <strong>Post. </strong>Para aprender a editar, abra a lista<strong> Editores de texto</strong> e escolha uma das opções de editor.</p>",
             "image": "https://caiogc.github.io/tutorial-professor-publii/media/posts/4/ufop.webp",
             "author": {
                 "name": "Fulano de Tal"
@@ -23,14 +23,14 @@
             "tags": [
             ],
             "date_published": "2024-09-02T13:27:09-03:00",
-            "date_modified": "2024-11-02T12:48:01-03:00"
+            "date_modified": "2024-11-12T05:47:56-03:00"
         },
         {
             "id": "https://caiogc.github.io/tutorial-professor-publii/titulo-do-post-2/",
             "url": "https://caiogc.github.io/tutorial-professor-publii/titulo-do-post-2/",
             "title": "Título do Post",
-            "summary": "Para a criar um post, vá no menu Tutorial à esquerda, abra a lista POSTAGENS e escolha uma das opções&hellip;",
-            "content_html": "<p>Para a criar um <a href=\"https://caiogc.github.io/tutorial-professor-publii/postagens-2/\">post</a>, vá no menu <strong>Tutorial</strong> à esquerda, abra a lista <strong>POSTAGENS</strong> e escolha uma das opções de editor para aprender a publicar um <strong>Post.</strong></p>",
+            "summary": "Para a criar um post, vá no menu Tutorial à esquerda, acesse Postagens para aprender a publicar um Post. Para&hellip;",
+            "content_html": "<p>Para a criar um post, vá no menu <strong>Tutorial</strong> à esquerda, acesse <strong><a href=\"https://caiogc.github.io/tutorial-professor-publii/postagens-2/\">Postagens</a></strong> para aprender a publicar um <strong>Post. </strong>Para aprender a editar, abra a lista <strong>Editores de texto</strong> e escolha uma das opções de editor.</p>",
             "image": "https://caiogc.github.io/tutorial-professor-publii/media/posts/3/ufop.webp",
             "author": {
                 "name": "Fulano de Tal"
@@ -38,14 +38,14 @@
             "tags": [
             ],
             "date_published": "2024-09-02T13:24:38-03:00",
-            "date_modified": "2024-11-02T12:48:17-03:00"
+            "date_modified": "2024-11-12T05:48:12-03:00"
         },
         {
             "id": "https://caiogc.github.io/tutorial-professor-publii/titulo-do-post-3/",
             "url": "https://caiogc.github.io/tutorial-professor-publii/titulo-do-post-3/",
             "title": "Título do Post",
-            "summary": "Para a criar um post, vá no menu Tutorial à esquerda, abra a lista POSTAGENS e escolha uma das opções&hellip;",
-            "content_html": "<p>Para a criar um <a href=\"https://caiogc.github.io/tutorial-professor-publii/postagens-2/\">post</a>, vá no menu <strong>Tutorial</strong> à esquerda, abra a lista <strong>POSTAGENS</strong> e escolha uma das opções de editor para aprender a publicar um <strong>Post.</strong></p>",
+            "summary": "Para a criar um post, vá no menu Tutorial à esquerda, acesse Postagens para aprender a publicar um Post. Para&hellip;",
+            "content_html": "<p>Para a criar um post, vá no menu <strong>Tutorial</strong> à esquerda, acesse <strong><a href=\"https://caiogc.github.io/tutorial-professor-publii/postagens-2/\">Postagens</a></strong> para aprender a publicar um <strong>Post. </strong>Para aprender a editar, abra a lista <strong>Editores de texto</strong> e escolha uma das opções de editor.</p>",
             "image": "https://caiogc.github.io/tutorial-professor-publii/media/posts/2/ufop.webp",
             "author": {
                 "name": "Fulano de Tal"
@@ -53,7 +53,7 @@
             "tags": [
             ],
             "date_published": "2024-09-02T13:19:24-03:00",
-            "date_modified": "2024-11-02T12:48:27-03:00"
+            "date_modified": "2024-11-12T05:48:19-03:00"
         }
     ]
 }
