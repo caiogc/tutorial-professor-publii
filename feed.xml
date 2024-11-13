@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <title>Professor Fulano de Tal</title>
+    <title>Tutorial de utilização do Publii</title>
     <link href="https://caiogc.github.io/tutorial-professor-publii/feed.xml" rel="self" />
     <link href="https://caiogc.github.io/tutorial-professor-publii" />
     <updated>2024-11-12T05:48:19-03:00</updated>
